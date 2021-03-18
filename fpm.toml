@@ -1,0 +1,26 @@
+# TOML file for fpm as described at https://github.com/fortran-lang/fpm/blob/master/manifest-reference.md
+name = "fpm-man"
+version = "1.0.0"
+license = "MIT"
+author = "John S. Urban"
+maintainer = "urbanjost@comcast.net"
+copyright = "2020 John S. Urban"
+description = "display Fortran intrinsics documentation"
+
+[dependencies]
+
+[dependencies.M_CLI2]
+   git = "https://github.com/urbanjost/M_CLI2.git"
+[dependencies.M_escape]
+   git = "https://github.com/urbanjost/M_escape.git"
+[dependencies.M_intrinsics]
+   git = "https://github.com/urbanjost/M_intrinsics.git"
+[dependencies.M_match]
+   git = "https://github.com/urbanjost/M_match.git"
+[dependencies.M_strings]
+   git = "https://github.com/urbanjost/M_strings.git"
+
+[[executable]]
+name = "fpm-man"
+source-dir = "app/"
+main="fpm-man.f90"
