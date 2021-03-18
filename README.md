@@ -63,7 +63,10 @@ Add this to your ~/.bashrc file
 ```bash
 fm(){
 (
-export EDITOR='vim -c "set filetype=man"'
+case "$*" in
+*-d*) export EDITOR='vim -c "set filetype=fortran"' ;;
+*)    export EDITOR='vim -c "set filetype=man"'     ;;
+esac
 vip fpm-man $*
 )
 }
