@@ -5,7 +5,7 @@ license = "MIT"
 author = "John S. Urban"
 maintainer = "urbanjost@comcast.net"
 copyright = "2020 John S. Urban"
-description = "display Fortran intrinsics documentation"
+description = "fpm plug-in application that displays Fortran intrinsics documentation"
 
 [dependencies]
 
