@@ -11,12 +11,16 @@ description = "fpm plug-in application that displays Fortran intrinsics document
 
 [dependencies.M_CLI2]
    git = "https://github.com/urbanjost/M_CLI2.git"
+
 [dependencies.M_escape]
    git = "https://github.com/urbanjost/M_escape.git"
+
 [dependencies.M_intrinsics]
    git = "https://github.com/urbanjost/M_intrinsics.git"
+
 [dependencies.M_match]
    git = "https://github.com/urbanjost/M_match.git"
+
 [dependencies.M_strings]
    git = "https://github.com/urbanjost/M_strings.git"
 
